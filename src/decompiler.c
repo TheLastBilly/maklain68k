@@ -1,5 +1,8 @@
 #include "decompiler.h"
 
+//Actual decompiler. Is it pretty? Fuck no
+//Is it functional? Fuck no (I'll keep you updated)
+
 static enum
 {
     OPCODE_GROUP_0 = 0x00,

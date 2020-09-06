@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Dirty and quick converter for hexadecimal, binary and decimal values.
+// Wanna build it? gcc bitconv.c -o bitconv
+// Wanna install it? sudo cp ./bitconv /usr/bin/
+// Boom!, no make nor cmake, like the real (cave)men do it
+
 #define USAGE "needs to arguments [b/d/h] [value]\n"
 
 static inline size_t ipow(size_t base, size_t power)

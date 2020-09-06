@@ -6,6 +6,8 @@
 
 #include <stdint.h>
 
+// Data types used for decompiler (or dissasembler, but decompiler sounds cooler)
+
 typedef enum mnemonic_t
 {
     ORI_TO_CCR,
